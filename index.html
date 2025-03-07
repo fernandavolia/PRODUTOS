@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montar Pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Montar Pedido</h1>
+        <label for="filial">Escolha a Filial:</label>
+        <select id="filial"></select>
+
+        <label for="cliente">Nome do Cliente:</label>
+        <input type="text" id="cliente" placeholder="Digite o nome do cliente">
+        
+        <h2>Produtos:</h2>
+        <div id="produtos"></div>
+
+        <h3>Total: R$<span id="total">0.00</span></h3>
+        
+        <button id="finalizar">Finalizar Pedido</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
